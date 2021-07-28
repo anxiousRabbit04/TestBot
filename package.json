@@ -1,0 +1,25 @@
+{
+  "name": "testbot",
+  "version": "1.0.0",
+  "description": "test telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anxiousRabbit04/TestBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anxiousRabbit04/TestBot/issues"
+  },
+  "homepage": "https://github.com/anxiousRabbit04/TestBot#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "telegraf": "^4.4.1"
+  }
+}
