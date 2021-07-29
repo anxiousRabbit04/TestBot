@@ -1,3 +1,6 @@
-require("dotenv").config();
+import { launchTelegramBot } from "./Models/TelegramBot.js";
+import dotnet from "dotenv"
 
-console.log(process.env.TEST);
+dotnet.config();
+
+launchTelegramBot(process.env.TELEGRAM_BOT_TOKEN);
